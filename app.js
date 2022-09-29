@@ -64,7 +64,7 @@ function updateDom(data) {
   <h3 class ='text-warning'>${name} - ${country}</h3><hr/>
   <p><span class ='temp'>${Math.round(temp)}</span>°C</p><hr/>
   <p>${data.weather[0].main}</p><hr/>
-  <p>Felt : ${Math.round(feels_like)}°C</p>
+  <p>Felt : ${Math.round(feels_like)}°C</p><hr/>
   <p>HMD : %${Math.round(humidity)}</p>
   
 
