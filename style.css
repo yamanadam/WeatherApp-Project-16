@@ -18,6 +18,9 @@ body {
   height: 100vh;
   border-radius: 8px;
 }
+.btn {
+  width: 5rem;
+}
 
 #input {
   width: 15rem;
@@ -26,18 +29,34 @@ body {
   background: transparent;
   border: none;
   border-bottom: 3px solid red;
+  color: white;
 }
-.result {
-  border: 3px solid red;
-  max-width: 9rem;
+
+#input:focus {
+  outline: none;
+}
+
+.icon {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-gap: 32px 20px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-content: center;
 }
 
 .city {
+  border: 1px solid yellow;
+  position: relative;
+  padding: 40px 10%;
+  border-radius: 20px;
   font-size: 30px;
   font-weight: 500;
   text-shadow: 1px 3px rgba(0, 0, 0, 0.7);
-}
-
-.temper {
-  font-size: 40px;
 }
